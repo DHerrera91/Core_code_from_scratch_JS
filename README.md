@@ -32,3 +32,56 @@ for (let i = 0; i < weekDays.length; i ++) {
 console.log(weekDays[i]);
 } 
 ```
+
+<h1 align="center">Week-6</h1>
+
+# (Monday)
+
+The assingment was to do the HTML course on EDPUZZLE.
+
+# (Tuesday)
+
+## Variables
+```javascript
+//Declare a variable firstname and initialize it with the value 'Lata'.
+
+let firstname = 'Lata'
+```
+## What is X?
+```javascript
+//Which value does x have after execution of the following code?
+
+let x = 'Geeta';
+
+Answer: 'Geeta'
+```
+## Several Variables
+```javascript
+//Declare a variable flower and assign it the value 'rose'. Declare a second variable tree and assign it the value 'maple'.
+
+let flower = 'rose';
+let tree = 'maple';
+```
+## Reassignment
+```javascript
+//Which value does x have after execution of the following code?
+
+let x = 'Tic';
+x = 'Tac';
+x = 'Toe';
+
+Answer: 'Toe'
+```
+## Assign Variables
+
+```javascript
+//Which value does x have after execution of the following code?
+
+let x = 'Laurel';
+let y = 'Hardy';
+let z = y;
+y = x;
+x = z;
+
+Answer: 'Hardy'
+```
