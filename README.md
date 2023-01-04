@@ -95,4 +95,4 @@ Answer: 'Hardy'
 
 ### End Of Challenges
 
-[**Go To Top**](#Core_code_from_scratch_Javascript)
+[**Go To Top**](#Core_code_from_scratch_Javacript)
