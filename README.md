@@ -1,6 +1,8 @@
-# Core_code_from_scratch_JS
+<h1 align="center">Core_code_from_scratch_Javacript</h1>
 
 <h1 align="center">Week-5</h1>
+
+[**Go To Bottom**](#End-Of-Challenges)
 
 # (Thursday)
 ## Javascript Intro
@@ -85,3 +87,12 @@ x = z;
 
 Answer: 'Hardy'
 ```
+
+
+
+
+
+
+### End Of Challenges
+
+[**Go To Top**](#Core_code_from_scratch_Javascript)
