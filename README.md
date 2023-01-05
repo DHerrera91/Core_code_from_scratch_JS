@@ -88,6 +88,40 @@ x = z;
 Answer: 'Hardy'
 ```
 
+# (Tuesday)
+
+## Functions
+
+```javascript
+//Define a function hello that returns 'Hello world!'.
+
+function hello(){
+return 'Hello world!';
+}
+```
+## Multiple functions
+
+```javascript
+//
+```
+## Function Calls
+
+```javascript
+//
+```
+## What is X?
+
+```javascript
+//
+```
+## Parameters
+
+```javascript
+//
+```
+
+
+
 
 
 
