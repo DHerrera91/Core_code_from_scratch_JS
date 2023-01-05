@@ -102,22 +102,47 @@ return 'Hello world!';
 ## Multiple functions
 
 ```javascript
-//
+//Define two functions. The first function a should return 'Hello a!' and the second function b should return 'Hello b!'.
+
+function a(){
+return 'Hello a!'
+}
+
+function b(){
+return 'Hello b!'
+}
 ```
 ## Function Calls
 
 ```javascript
-//
+//1. Define a function greet returning the value 'Haydo!'.
+2. Declare a variable salutation. Call the function greet and assign the result of the call to the variable salutation.
+
+function greet(){
+return 'Haydo!'
+}
+
+let salutation = greet();
 ```
 ## What is X?
 
 ```javascript
-//
+//Which value does x have after execution of the following code? 
+
+Answer: 'Hi!'
 ```
 ## Parameters
 
 ```javascript
-//
+//Write a function echo that also returns the passed parameter. echo('Greta')
+should return 'Greta' and echo('CO2') should return 'CO2'
+
+function echo(string) {
+    return string;
+}
+
+console.log(echo('Greta'));
+console.log(echo('CO2'));
 ```
 
 
