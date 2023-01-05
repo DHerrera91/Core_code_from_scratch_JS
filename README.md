@@ -88,7 +88,7 @@ x = z;
 Answer: 'Hardy'
 ```
 
-# (Tuesday)
+# (Wednesday)
 
 ## Functions
 
@@ -145,8 +145,63 @@ console.log(echo('Greta'));
 console.log(echo('CO2'));
 ```
 
+# (Thursday)
 
 
+   ## Strings
+   ```javascript
+   //Write a function greet having one parameter and returning 'Hello <parameter>!'.
+
+Example: greet('Ada') should return 'Hello Ada!' and greet('Grace') should return 'Hello Grace!'.
+
+function greet(name){
+return 'Hello ' + name + '!';
+}
+
+console.log(greet('Ada!'));
+   ```
+   ## String: length
+   ```javascript
+   //Write a function length that takes a string and returns the number of characters of the string.
+
+Example: length('sun') should return 3.
+
+function length(string){
+return string.length;
+}
+   ```
+   ## String: toUpperCase()
+   ```javascript
+   //Write a function toCase that takes a string and returns that string in lowercase and uppercase with - as delimiter.
+
+Example: toCase('Mthatha') should return 'mthatha-MTHATHA'.
+
+function toCase(string){
+return string.toLowerCase() +'-'+ string.toUpperCase();
+}
+   ```
+   ## String: charAt()
+   ```javascript
+   //Write a function shortcut that takes two strings and returns the initial letters of theses strings.
+
+//Example: shortcut('Amnesty', 'International') should return 'AI'.
+
+function shortcut(string1, string2) {
+  return string1.charAt(0) + string2.charAt(0);
+}
+
+   ```
+   ## String: indexOf()
+   ```javascript
+   //Write a function indexOfIgnoreCase taking two strings and determining the first occurrence 
+   of the second string in the first string. The function should be case insensitive.
+
+//Example: indexOfIgnoreCase('bit','it') and indexOfIgnoreCase('bit','IT') should return
+
+function indexOfIgnoreCase(st1, st2) {
+  return st1.toLowerCase().indexOf(st2.toLowerCase());
+}
+   ```
 
 
 
