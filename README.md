@@ -196,12 +196,87 @@ function shortcut(string1, string2) {
    //Write a function indexOfIgnoreCase taking two strings and determining the first occurrence 
    of the second string in the first string. The function should be case insensitive.
 
-//Example: indexOfIgnoreCase('bit','it') and indexOfIgnoreCase('bit','IT') should return
+//Example: indexOfIgnoreCase('bit','it') and indexOfIgnoreCase('bit','IT') should return 1.
 
 function indexOfIgnoreCase(st1, st2) {
   return st1.toLowerCase().indexOf(st2.toLowerCase());
 }
    ```
+
+
+<h1 align="center">Week-7</h1>
+
+# (Monday)
+
+## String: subsrt()
+
+```javascript
+//Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
+
+//Example: firstWord('see and stop') should return 'see'.
+
+function firstWord(string){
+return string.substr(0,string.indexOf(' '));
+}
+```
+
+## String: replace()
+
+```javascript
+//Write a function normalize, that replaces '-' with '/' in a date string.
+
+//Example: normalize('20-05-2017') should return '20/05/2017'.
+
+function normalize(date){
+ return date.replace(/-/g,'/');
+}
+```
+## String: Increment
+
+```javascript
+//Which value does x have after execution of the following code?
+
+let x = 3;
+x++;
+x = x * 2;
+x--;
+
+Answer: 7
+```
+## String: Fahrenheit
+
+
+```javascript
+//Write a function toFahrenheit that converts a temperature from Celsius to Fahrenheit.
+
+//Example: toFahrenheit(0) should return 32.
+
+function toFahrenheit(celsius) {
+  let fahrenheit = celsius * 1.8 + 32;
+  console.log(fahrenheit);
+}
+```
+## String: Boolean
+
+```javascript
+//Write a function nand that takes two Boolean values. If both values are true, the result should be false. In the other cases the return should be true.
+
+//I.e.: The call nand(true, true) should return false. The calls nand(true, false), nand(false, true) and nand(false, false) should return true.
+
+
+function nand(bool1, bool2) {
+  if (bool1 && bool2 === true) {
+    return false;
+  } else {
+    return true;
+  }
+}
+```
+
+# (Tuesday)
+
+
+
 
 
 
